@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ria Maitra – GenAI · Data Science · Analyst</title>
+<meta name="description" content="Ria Maitra: GenAI, data science and analytics professional with 4+ years in financial services. Data in. Decisions out.">
+<style>
+:root{--bg:#f2f4f8;--card:#fff;--ink:#0f1f3d;--mute:#566176;--bd:#d3d9e4;--pri:#1b365d;--pri2:#2f5b99;--sky:#8fb0dc;--pale:#e6edf7;--grey:#6b7686;--grey2:#e8ebf0;--grid:#e0e6ee;--onp:#fff;--h1:#eef2f9;--h2:#dfe7f2;--sh:rgba(15,31,61,.07);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1424;--card:#141d31;--ink:#e8edf6;--mute:#9ba8bf;--bd:#2a3752;--pri:#7fa6e0;--pri2:#8db4ea;--sky:#4d6a96;--pale:#1a2640;--grey:#8b96aa;--grey2:#1c2538;--grid:#1a2438;--onp:#0d1424;--h1:#111a2e;--h2:#16213a;--sh:rgba(0,0,0,.3);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1424;--card:#141d31;--ink:#e8edf6;--mute:#9ba8bf;--bd:#2a3752;--pri:#7fa6e0;--pri2:#8db4ea;--sky:#4d6a96;--pale:#1a2640;--grey:#8b96aa;--grey2:#1c2538;--grid:#1a2438;--onp:#0d1424;--h1:#111a2e;--h2:#16213a;--sh:rgba(0,0,0,.3);color-scheme:dark}
+html{font-size:106%;scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Times New Roman",Times,serif;line-height:1.6}
+.mono{font-family:inherit}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+a{color:var(--pri2)}
+.top{background:linear-gradient(var(--grid) 1px,transparent 1px) 0 0/32px 32px,linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/32px 32px,linear-gradient(135deg,var(--h1),var(--h2));padding:20px 0 60px;position:relative;overflow:hidden}
+.deco{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.top .wrap{position:relative;z-index:1}
+.s{fill:none;stroke:var(--pri2);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:.32}.f{fill:var(--pri2);stroke:none;opacity:.2}.t{font:10px "Times New Roman",Times,serif;fill:var(--pri2);opacity:.5}
+.sd{position:absolute;right:0;top:34px;width:210px;height:130px;pointer-events:none}
+@media(max-width:760px){.sd{display:none}}
+section{position:relative}
+nav{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:44px;font-size:.84rem}
+nav b{font-size:1rem;color:var(--pri)}nav div a{color:var(--ink);text-decoration:none;margin-left:18px;font-weight:600}nav div a:hover{color:var(--pri2)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+@media(max-width:800px){.hero{grid-template-columns:1fr}}
+.hi{display:inline-block;font-size:.82rem;background:var(--pri);color:var(--onp);padding:4px 12px;border-radius:6px;margin-bottom:14px}
+h1{font-size:clamp(3rem,9vw,5.2rem);line-height:.95;margin:0 0 14px;letter-spacing:-1px;font-weight:900;color:var(--ink)}
+.role{font-size:1.05rem;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--pri2);margin:0 0 12px}
+.sass{font-size:1.45rem;font-weight:800;line-height:1.2;margin:0 0 14px}
+.sass span{background:linear-gradient(90deg,var(--pri),var(--pri2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sum{color:var(--mute);margin:0 0 24px;max-width:540px}
+.btn{display:inline-block;padding:11px 20px;border:1px solid var(--pri);border-radius:10px;text-decoration:none;font-weight:700;font-size:.92rem;margin:0 10px 12px 0;background:transparent;color:var(--pri);transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 14px var(--sh)}
+.btn.p{background:var(--pri);color:var(--onp)}
+.photowrap{position:relative;max-width:340px;margin:0 auto;width:100%}
+.photo{aspect-ratio:4/5;border-radius:20px;border:1px solid var(--bd);background:linear-gradient(160deg,var(--pale),var(--grey2));box-shadow:0 16px 40px var(--sh);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--grey);font-size:.8rem;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+.stamp{position:absolute;left:-18px;bottom:-18px;width:96px;height:96px;border-radius:50%;background:var(--pri);color:var(--onp);display:flex;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:.7rem;line-height:1.15;border:4px solid var(--card)}
+.stamp b{display:block;font-size:1.4rem}
+.tick{background:var(--pri);color:var(--onp);overflow:hidden;white-space:nowrap}
+.tick div{display:inline-block;padding:10px 0;font-weight:700;letter-spacing:1.5px;font-size:.82rem;animation:mq 30s linear infinite}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.tick div{animation:none}html{scroll-behavior:auto}.btn,.card{transition:none}}
+section{padding:58px 0 4px}
+.eb{font-size:.82rem;color:var(--pri2);font-weight:700;margin:0 0 2px}
+h2{font-size:clamp(1.7rem,4vw,2.3rem);margin:0 0 6px;letter-spacing:-1px;font-weight:900}
+.lead{color:var(--mute);margin:0 0 24px;max-width:660px}
+.clients{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.cl,.card,.proj{background:var(--card);border:1px solid var(--bd);border-radius:14px;box-shadow:0 6px 18px var(--sh)}
+.cl{padding:14px 18px;border-left:4px solid var(--pri2)}.cl:nth-child(3n+2){border-left-color:var(--sky)}.cl:nth-child(3n){border-left-color:var(--grey)}
+.cl b{display:block;font-size:1.05rem}.cl span{font-size:.88rem;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:20px}
+.card{padding:20px;display:flex;flex-direction:column;transition:transform .12s,box-shadow .12s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 26px var(--sh)}
+.card h3,.proj h3{margin:0 0 6px;font-size:1.15rem;font-weight:800}
+.card p,.proj p{margin:0 0 12px;font-size:.94rem;color:var(--mute)}
+.vid{aspect-ratio:16/9;border:1px dashed var(--sky);border-radius:10px;background:var(--pale);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:var(--pri2);font-size:.76rem;margin-bottom:14px}
+.vid i,.vrow i{width:40px;height:40px;border-radius:50%;background:var(--pri);display:flex;align-items:center;justify-content:center;flex:none}
+.vid i:after,.vrow i:after{content:"";border-left:11px solid var(--onp);border-top:6px solid transparent;border-bottom:6px solid transparent;margin-left:3px}
+.badge{align-self:flex-start;font-size:.7rem;font-weight:800;border-radius:6px;padding:2px 10px;margin-bottom:10px;letter-spacing:.5px}
+.live{background:var(--pri);color:var(--onp)}.prog{background:var(--pale);color:var(--pri2);border:1px solid var(--sky)}.plan{background:var(--grey2);color:var(--grey)}
+.tags{margin-top:auto}
+.tag{display:inline-block;font-size:.74rem;font-weight:700;background:var(--pale);color:var(--pri2);border-radius:6px;padding:2px 9px;margin:0 6px 6px 0}
+.tag:nth-child(2){background:var(--grey2);color:var(--grey)}.tag:nth-child(3){background:var(--pale);color:var(--pri)}
+.card .btn{align-self:flex-start;margin:8px 0 0}
+.proj{display:grid;grid-template-columns:1fr 1.15fr;gap:26px;padding:24px;margin-bottom:20px}
+@media(max-width:780px){.proj{grid-template-columns:1fr}}
+.fig{aspect-ratio:16/10;border:1px dashed var(--sky);border-radius:10px;background:repeating-linear-gradient(0deg,transparent 0 31px,var(--grid) 31px 32px),var(--pale);display:flex;align-items:center;justify-content:center;color:var(--pri2);font-size:.78rem;text-align:center;padding:10px}
+.cap{font-size:.82rem;color:var(--mute);margin:8px 0 10px}.cap b{color:var(--ink)}
+.vrow{display:flex;align-items:center;gap:12px;border:1px dashed var(--sky);border-radius:8px;padding:8px 12px;font-size:.78rem;color:var(--pri2);background:var(--pale)}
+.vrow i{width:30px;height:30px}
+.vrow i:after{border-left-width:9px;border-top-width:5px;border-bottom-width:5px}
+.contact{background:var(--pri);color:var(--onp);border-radius:12px;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px 20px;flex-wrap:wrap;margin:48px 0 28px}
+.contact h2{font-size:1.15rem;margin:0;letter-spacing:-.3px}.contact p{margin:2px 0 0;opacity:.88;font-size:.88rem}
+.contact .btn{background:var(--card);color:var(--pri);border-color:var(--card);padding:7px 14px;font-size:.85rem;margin:0 0 0 8px}
+footer{text-align:center;color:var(--mute);font-size:.84rem;padding-bottom:34px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="robot" viewBox="0 0 80 78"><g class="s"><rect x="8" y="16" width="64" height="48" rx="12"/><line x1="40" y1="16" x2="40" y2="6"/><circle cx="40" cy="4" r="3.5"/><circle cx="26" cy="38" r="6"/><circle cx="54" cy="38" r="6"/><line x1="30" y1="54" x2="50" y2="54"/><rect x="0" y="30" width="8" height="16" rx="3"/><rect x="72" y="30" width="8" height="16" rx="3"/><line x1="28" y1="64" x2="28" y2="74"/><line x1="52" y1="64" x2="52" y2="74"/></g><circle class="f" cx="26" cy="38" r="2.5"/><circle class="f" cx="54" cy="38" r="2.5"/></symbol>
+<symbol id="agent" viewBox="0 0 200 130"><g class="s"><circle cx="100" cy="65" r="16"/><circle cx="26" cy="22" r="10"/><circle cx="174" cy="22" r="10"/><circle cx="26" cy="108" r="10"/><circle cx="174" cy="108" r="10"/><line x1="87" y1="55" x2="35" y2="27"/><line x1="113" y1="55" x2="165" y2="27"/><line x1="87" y1="75" x2="35" y2="103"/><line x1="113" y1="75" x2="165" y2="103"/></g><circle class="f" cx="100" cy="65" r="6"/><text class="t" x="26" y="42" text-anchor="middle">LLM</text><text class="t" x="174" y="42" text-anchor="middle">tools</text><text class="t" x="26" y="128" text-anchor="middle">memory</text><text class="t" x="174" y="128" text-anchor="middle">data</text></symbol>
+<symbol id="chart" viewBox="0 0 200 120"><g class="s"><polyline points="8,8 8,108 192,108"/><polyline points="14,96 44,78 74,86 104,56 134,64 164,34 190,24"/><polyline points="14,102 44,94 74,98 104,84 134,88 164,70 190,62"/></g><circle class="f" cx="44" cy="78" r="2.6"/><circle class="f" cx="104" cy="56" r="2.6"/><circle class="f" cx="164" cy="34" r="2.6"/><circle class="f" cx="190" cy="24" r="2.6"/></symbol>
+<symbol id="bars" viewBox="0 0 120 100"><g class="s"><line x1="4" y1="94" x2="116" y2="94"/></g><rect class="f" x="10" y="64" width="16" height="30"/><rect class="f" x="34" y="48" width="16" height="46"/><rect class="f" x="58" y="56" width="16" height="38"/><rect class="f" x="82" y="26" width="16" height="68"/></symbol>
+</defs></svg>
+<div class="top"><svg class="deco" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#chart" x="20" y="400" width="300" height="180"/><use href="#bars" x="350" y="490" width="100" height="85"/><use href="#robot" x="500" y="455" width="90" height="88"/><use href="#agent" x="430" y="18" width="300" height="195"/><use href="#robot" x="870" y="28" width="64" height="62"/><use href="#agent" x="690" y="430" width="250" height="163"/></svg><div class="wrap">
+<nav class="mono"><b>ria.maitra</b><div><a href="#clients">clients</a><a href="#featured">featured</a><a href="#other">projects</a><a href="#cases">cases</a><a href="#contact">contact</a></div></nav>
+<div class="hero">
+<div>
+<span class="hi mono">// hi, I’m</span>
+<h1>Ria Maitra</h1>
+<p class="role">GenAI · Data Science · Analyst</p>
+<p class="sass">Data in. <span>Decisions out.</span> Drama optional.</p>
+<p class="sum">Analytics specialist with 4+ years in financial services, working with Citi, Morgan Stanley and Visa. I build AI agents, LLM applications and data pipelines that automate complex financial workflows, from rewards analysis and reporting to contract intelligence.</p>
+<a class="btn p" href="#featured">See the receipts</a><a class="btn" href="#contact">Slide into my inbox</a>
+</div>
+<div class="photowrap">
+<!-- To add the photo, replace the contents of this div with: <img src="your-photo.jpg" alt="Ria Maitra"> -->
+<div class="photo mono"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>Your photo here</div>
+<div class="stamp"><div><b>4+</b>years in<br>finance data</div></div>
+</div>
+</div>
+</div></div>
+<div class="tick mono" aria-hidden="true"><div>PYTHON ✦ SQL ✦ LANGGRAPH ✦ RAG ✦ LLM EVALS ✦ NLP ✦ AI AGENTS ✦ FINANCE ✦ EXCEL ✦ DATA GOVERNANCE ✦ PYTHON ✦ SQL ✦ LANGGRAPH ✦ RAG ✦ LLM EVALS ✦ NLP ✦ AI AGENTS ✦ FINANCE ✦ EXCEL ✦ DATA GOVERNANCE ✦&nbsp;</div></div>
+
+<div class="wrap">
+<section id="clients"><p class="eb mono">// 01 who I’ve worked with</p><h2>Clients I’ve worked with</h2><p class="lead">Banks, payments, pharma and lending. Yes, I read their terms and conditions.</p>
+<div class="clients">
+<div class="cl"><b>Citi</b><span>Rewards optimisation and portfolio analysis</span></div>
+<div class="cl"><b>Morgan Stanley</b><span>E*TRADE and Morgan Stanley at Work: financial reporting</span></div>
+<div class="cl"><b>Visa</b><span>Contracts AI and NLP automation</span></div>
+<div class="cl"><b>Johnson &amp; Johnson</b><span>Contracts AI and NLP automation</span></div>
+<div class="cl"><b>doForms</b><span>LLM integration and form intelligence</span></div>
+<div class="cl"><b>Lendmark</b><span>Data governance and exploratory analysis</span></div>
+</div></section>
+
+<section id="featured"><svg class="sd" aria-hidden="true"><use href="#agent" width="210" height="130"/></svg><p class="eb mono">// 02 the main event</p><h2>Featured projects</h2><p class="lead">Built to be opened, run and checked. Demo videos drop in as each one is recorded.</p>
+<div class="grid">
+<div class="card"><div class="vid mono"><i></i>Demo video: add link here</div><span class="badge live mono">LIVE ON GITHUB</span><h3>CardAnalyst AI</h3>
+<p>Upload any credit card document, ask any question, and get structured competitive intelligence back, powered by an LLM.</p>
+<div class="tags mono"><span class="tag">GenAI</span><span class="tag">Python</span><span class="tag">Document Q&amp;A</span></div>
+<a class="btn" href="https://github.com/maitraria15-dot/CardAnalyst-AI" target="_blank" rel="noopener">View on GitHub</a></div>
+<div class="card"><div class="vid mono"><i></i>Demo video: coming soon</div><span class="badge prog mono">IN PROGRESS</span><h3>Data EDA Agent</h3>
+<p>An AI agent that explores a finance or banking dataset, reports its findings, and is scored against datasets where the right answers are already known.</p>
+<div class="tags mono"><span class="tag">AI agents</span><span class="tag">LangGraph</span><span class="tag">Evaluation</span></div></div>
+<div class="card"><div class="vid mono"><i></i>Demo video: coming soon</div><span class="badge plan mono">PLANNED</span><h3>Machine learning project</h3>
+<p>An end-to-end model on public financial data, such as credit risk or fraud: features, model comparison, evaluation and a clear write-up.</p>
+<div class="tags mono"><span class="tag">XGBoost</span><span class="tag">Scikit-learn</span><span class="tag">Evaluation</span></div></div>
+</div></section>
+
+<section id="other"><svg class="sd" aria-hidden="true"><use href="#chart" width="210" height="130"/></svg><p class="eb mono">// 03 greatest hits</p><h2>Other projects</h2><p class="lead">A short description and a key visual for each. Charts are built from public or anonymised data, never client data.</p>
+
+<div class="proj"><div><h3>Contract clause automation</h3><p>Python pipelines using OCR, NLP and rules to extract, translate, classify and validate contract clauses, cutting manual review effort by about 40–50%. Graph-based parsing turned 50+ complex clauses into simpler policy components.</p><div class="tags mono"><span class="tag">NLP</span><span class="tag">NetworkX</span><span class="tag">OCR</span></div></div>
+<div><div class="fig mono">Key visual: add chart or screenshot</div><p class="cap"><b>Figure 1:</b> Clauses by category, extracted and classified automatically</p><div class="vrow mono"><i></i>Optional: short demo video</div></div></div>
+
+<div class="proj"><div><h3>LLM benchmark for document extraction</h3><p>Compared Gemini, Cerebras, Mistral, Claude and OpenAI on extracting content from PDFs and images, and built a pipeline turning plain-language requests into structured form definitions.</p><div class="tags mono"><span class="tag">LLM APIs</span><span class="tag">Benchmarking</span><span class="tag">JSON</span></div></div>
+<div><div class="fig mono">Key visual: add chart or screenshot</div><p class="cap"><b>Figure 1:</b> Extraction accuracy by model, on sample public documents</p><div class="vrow mono"><i></i>Optional: short demo video</div></div></div>
+
+<div class="proj"><div><h3>Rewards leakage analysis</h3><p>Root-cause analysis of rewards leakage on credit card programmes, including finding 25+ unclassified cash-advance merchants tied to $10M+ in potential savings.</p><div class="tags mono"><span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">Card analytics</span></div></div>
+<div><div class="fig mono">Key visual: add chart or screenshot</div><p class="cap"><b>Figure 1:</b> Spend by merchant category, illustrated on public card data</p><div class="vrow mono"><i></i>Optional: short demo video</div></div></div>
+
+<div class="proj"><div><h3>Data governance framework</h3><p>Rationalised reports across five business functions, standardised 15+ KPIs, and documented metadata for 20+ tables including PII classification.</p><div class="tags mono"><span class="tag">Governance</span><span class="tag">KPIs</span><span class="tag">Metadata</span></div></div>
+<div><div class="fig mono">Key visual: add chart or screenshot</div><p class="cap"><b>Figure 1:</b> How reports, KPIs and tables connect (illustrative diagram)</p><div class="vrow mono"><i></i>Optional: short demo video</div></div></div>
+</section>
+
+<section id="cases"><svg class="sd" aria-hidden="true"><use href="#robot" width="140" height="130"/></svg><p class="eb mono">// 04 nerd corner</p><h2>Case studies for interest</h2><p class="lead">Other people’s finance disasters make great teachers. I read them, then explain them in my own words, on video.</p>
+<div class="grid">
+<div class="card"><div class="vid mono"><i></i>Video: coming soon</div><span class="badge plan mono">COMING SOON</span><h3>Barings Bank collapse</h3><p>How weak controls let a single trader hide losses, and what the numbers should have shown.</p></div>
+<div class="card"><div class="vid mono"><i></i>Video: coming soon</div><span class="badge plan mono">COMING SOON</span><h3>Lehman Brothers</h3><p>Leverage, risk and the failure that shook the financial system.</p></div>
+<div class="card"><div class="vid mono"><i></i>Video: coming soon</div><span class="badge plan mono">COMING SOON</span><h3>The London Whale</h3><p>A trading loss at JPMorgan and the model and risk-control lessons behind it.</p></div>
+</div></section>
+
+<div class="contact" id="contact"><div>
+<h2>Let’s build something smart.</h2>
+<p>Open to analytics, GenAI and AI-agent roles, and freelance projects in financial services.</p></div><div>
+<a class="btn" href="mailto:maitraria15@gmail.com">Email me</a>
+<a class="btn" href="https://www.linkedin.com/in/ria-maitra-11a767144" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://github.com/maitraria15-dot" target="_blank" rel="noopener">GitHub</a></div>
+</div>
+<footer class="mono">© 2026 Ria Maitra · built with data and good coffee</footer>
+</div>
+</body>
+</html>
